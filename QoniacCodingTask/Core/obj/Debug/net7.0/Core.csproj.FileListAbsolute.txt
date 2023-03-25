@@ -1,0 +1,12 @@
+/home/alihan/RiderProjects/QoniacCodingTask/Core/bin/Debug/net7.0/Core.deps.json
+/home/alihan/RiderProjects/QoniacCodingTask/Core/bin/Debug/net7.0/Core.dll
+/home/alihan/RiderProjects/QoniacCodingTask/Core/bin/Debug/net7.0/Core.pdb
+/home/alihan/RiderProjects/QoniacCodingTask/Core/obj/Debug/net7.0/Core.csproj.AssemblyReference.cache
+/home/alihan/RiderProjects/QoniacCodingTask/Core/obj/Debug/net7.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/alihan/RiderProjects/QoniacCodingTask/Core/obj/Debug/net7.0/Core.AssemblyInfoInputs.cache
+/home/alihan/RiderProjects/QoniacCodingTask/Core/obj/Debug/net7.0/Core.AssemblyInfo.cs
+/home/alihan/RiderProjects/QoniacCodingTask/Core/obj/Debug/net7.0/Core.csproj.CoreCompileInputs.cache
+/home/alihan/RiderProjects/QoniacCodingTask/Core/obj/Debug/net7.0/Core.dll
+/home/alihan/RiderProjects/QoniacCodingTask/Core/obj/Debug/net7.0/refint/Core.dll
+/home/alihan/RiderProjects/QoniacCodingTask/Core/obj/Debug/net7.0/Core.pdb
+/home/alihan/RiderProjects/QoniacCodingTask/Core/obj/Debug/net7.0/ref/Core.dll

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "YBt9zz2IljF7AJghb8owd6cK2wrqh7AY20v3r+mXexJL/4mEalZPLY1Q4RN0dx2zswYsnLswidFbAtZwj2T98A==",
+  "success": true,
+  "projectFilePath": "/home/alihan/RiderProjects/QoniacCodingTask/Web/Web.csproj",
+  "expectedPackageFiles": [
+    "/home/alihan/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/home/alihan/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0-preview.2.23128.3/microsoft.extensions.dependencyinjection.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "/home/alihan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.2.23128.3/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "/home/alihan/.nuget/packages/microsoft.extensions.logging/8.0.0-preview.2.23128.3/microsoft.extensions.logging.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "/home/alihan/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0-preview.2.23128.3/microsoft.extensions.logging.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "/home/alihan/.nuget/packages/microsoft.extensions.options/8.0.0-preview.2.23128.3/microsoft.extensions.options.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "/home/alihan/.nuget/packages/microsoft.extensions.primitives/8.0.0-preview.2.23128.3/microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512"
+  ],
+  "logs": []
+}

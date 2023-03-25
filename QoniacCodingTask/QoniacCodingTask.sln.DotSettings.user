@@ -1,0 +1,49 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/CustomBuildToolPath/@EntryValue">/usr/share/dotnet/sdk/7.0.202/MSBuild.dll</s:String>
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/home/alihan/.cache/JetBrains/Rider2022.3/resharper-host/temp/Rider/vAny/CoverageData/_QoniacCodingTask.986187959/Snapshot/snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1c09688d_002D6b4b_002D47bc_002D90ca_002Db61fea6ec7bc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="should_return_converted_number #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6D7E8586-EE01-4A1A-AE2A-18305156A79E::net7.0::Business.Test.Converter.EnglishConverterTest.should_return_converted_number&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=42ca4371_002Ddda0_002D4f31_002Dbc44_002D56451ef556e3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="should_return_converted_number #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6D7E8586-EE01-4A1A-AE2A-18305156A79E::net7.0::Business.Test.Converter.EnglishConverterTest.should_return_converted_number&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6c363037_002Dbfd5_002D4cf6_002Dabe3_002D3cb757135e0f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Send_DecimalNumber_ReturnsConversion #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6D7E8586-EE01-4A1A-AE2A-18305156A79E::net7.0::Business.Test.Converters.EnglishConverterTest.Send_DecimalNumber_ReturnsConversion&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=707d284d_002Dabb6_002D4715_002D8734_002D9c4cafe46a13/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Send_DecimalNumber_ReturnsConversion #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6D7E8586-EE01-4A1A-AE2A-18305156A79E::net7.0::Business.Test.Converters.EnglishConverterTest.Send_DecimalNumber_ReturnsConversion&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7880f818_002D0346_002D4583_002D9bba_002Dbae803169b98/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Send_DecimalNumber_ReturnsConversion" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6D7E8586-EE01-4A1A-AE2A-18305156A79E::net7.0::Business.Test.Services.ConversionService.ConversionServiceTest.Send_Decimal_Number_Returns_Conversion&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7f189d20_002D1134_002D4e1c_002Daa1b_002D38e6d39387c4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="should_return_converted_number #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6D7E8586-EE01-4A1A-AE2A-18305156A79E::net7.0::Business.Test.Converter.EnglishConverterTest.should_return_converted_number&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c3125e5f_002D2475_002D474a_002Da6aa_002D9cf3918820ad/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="should_return_converted_number" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6D7E8586-EE01-4A1A-AE2A-18305156A79E::net7.0::Business.Test.Converter.EnglishConverterTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea3cb622_002D66dc_002D49d4_002Dab27_002D728adfdd748c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="should_return_converted_number #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6D7E8586-EE01-4A1A-AE2A-18305156A79E::net7.0::Business.Test.Converter.EnglishConverterTest.Send_DecimalNumber_ReturnsConversion&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f15524d9_002De708_002D41e1_002D9554_002D4b3e4291ea1a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Send_DecimalNumber_ReturnsConversion #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6D7E8586-EE01-4A1A-AE2A-18305156A79E::net7.0::Business.Test.Converters.EnglishConverterTest.Send_DecimalNumber_ReturnsConversion&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

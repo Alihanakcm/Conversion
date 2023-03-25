@@ -1,0 +1,41 @@
+﻿@using Core.Constants
+@model Web.Models.Conversion.ConvertNumberViewModel;
+
+@{
+    ViewData["Title"] = "Conversion Page";
+}
+
+<form asp-controller="Conversion" asp-action="Convert" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <span>
+                <label>Currency: </label>
+            </span>
+            @Html.DropDownListFor(x => x.SelectedCurrency, new SelectList(Model.Currencies, "Value", "Name"), "Select", new { @class = "form-select" })
+            <span asp-validation-for="@Model.SelectedCurrency" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <span>
+                <label>Language: </label>
+            </span>
+            @Html.DropDownListFor(x => x.SelectedLanguage, new SelectList(Model.Languages, "Value", "Name"), "Select", new { @class = "form-select" })
+            <span asp-validation-for="@Model.SelectedLanguage" class="text-danger"></span>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="input-group mb-3">
+            @Html.TextBoxFor(x => x.Number, new { @class = "form-control", placeholder = "999 999 999,99", id = "number", value = @Model.Number, name = "number", pattern = Constant.Regex.DecimalNumberRegex, maxlength = "12" })
+        </div>
+        <span asp-validation-for="@Model.Number" class="text-danger"></span>
+    </div>
+    <br/>
+    <div class="row container">
+        <button class="btn btn-outline-success" type="submit" id="convert-button">Convert</button>
+    </div>
+</form>
+
+<br/>
+<div class="form-floating">
+    <textarea class="form-control" id="floatingTextarea2" style="height: 100px" readonly="readonly">@Model.ConversionResult</textarea>
+</div>

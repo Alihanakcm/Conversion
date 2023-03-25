@@ -1,0 +1,15 @@
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/Business.csproj.AssemblyReference.cache
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/Business.AssemblyInfoInputs.cache
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/Business.AssemblyInfo.cs
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/Business.csproj.CoreCompileInputs.cache
+/home/alihan/RiderProjects/QoniacCodingTask/Business/bin/Debug/net7.0/Business.deps.json
+/home/alihan/RiderProjects/QoniacCodingTask/Business/bin/Debug/net7.0/Business.dll
+/home/alihan/RiderProjects/QoniacCodingTask/Business/bin/Debug/net7.0/Business.pdb
+/home/alihan/RiderProjects/QoniacCodingTask/Business/bin/Debug/net7.0/Core.dll
+/home/alihan/RiderProjects/QoniacCodingTask/Business/bin/Debug/net7.0/Core.pdb
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/Business.csproj.CopyComplete
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/Business.dll
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/refint/Business.dll
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/Business.pdb
+/home/alihan/RiderProjects/QoniacCodingTask/Business/obj/Debug/net7.0/ref/Business.dll
