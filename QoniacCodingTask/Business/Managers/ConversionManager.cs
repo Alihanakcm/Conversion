@@ -1,34 +1,35 @@
 using System.Text;
+using Business.Managers.Abstracts;
 using Core.Constants;
 
 namespace Business.Managers;
 
-public static class ConversionManager
+public class ConversionManager : IConversionManager
 {
-    private static readonly StringBuilder ConversionResult = new();
+    private readonly StringBuilder _conversionResult = new();
 
-    public static string Get()
+    public string Get()
     {
-        return ConversionResult.ToString();
+        return _conversionResult.ToString();
     }
 
-    public static void Clear()
+    public void Clear()
     {
-        ConversionResult.Clear();
+        _conversionResult.Clear();
     }
 
-    public static void Add(string digit, string digitValue)
+    public void Add(string digit, string digitValue)
     {
-        if (ConversionResult.Length > 0) AddSpace();
+        if (_conversionResult.Length > 0) AddSpace();
         var blockAsString = string.IsNullOrWhiteSpace(digitValue)
             ? digit
             : string.Join(Constant.Space, digit, digitValue);
 
-        ConversionResult.Insert(0, blockAsString);
+        _conversionResult.Insert(0, blockAsString);
     }
 
-    private static void AddSpace()
+    private void AddSpace()
     {
-        ConversionResult.Insert(0, Constant.Space);
+        _conversionResult.Insert(0, Constant.Space);
     }
 }

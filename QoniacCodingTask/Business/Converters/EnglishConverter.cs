@@ -1,11 +1,24 @@
+using System.Runtime.InteropServices;
 using Business.Managers;
+using Business.Managers.Abstracts;
 using Core.Constants;
 using Core.Extensions;
+using Microsoft.Win32.SafeHandles;
 
 namespace Business.Converters;
 
-public class EnglishConverter : IConverter
+public sealed class EnglishConverter : IConverter
 {
+    private readonly IConversionManager _conversionManager;
+    private bool _disposedValue;
+    private readonly SafeHandle _safeHandle = new SafeFileHandle(nint.Zero, true);
+
+    public EnglishConverter(IConversionManager conversionManager)
+    {
+        _conversionManager = conversionManager;
+        Dispose(false);
+    }
+
     public string Convert(string numberPart)
     {
         if (string.IsNullOrWhiteSpace(numberPart))
@@ -20,7 +33,7 @@ public class EnglishConverter : IConverter
             {
                 var unitAsString = DigitManager.GetDigitAsString(block[0].ToString().CastToUshort());
                 var digitValue = DigitManager.GetDigitValueAsString(i + 1);
-                ConversionManager.Add(unitAsString, digitValue);
+                _conversionManager.Add(unitAsString, digitValue);
                 continue;
             }
 
@@ -49,7 +62,7 @@ public class EnglishConverter : IConverter
             if (block.Length < 3)
             {
                 var digitValue = DigitManager.GetDigitValueAsString(i + 1);
-                ConversionManager.Add(tenfold, digitValue);
+                _conversionManager.Add(tenfold, digitValue);
                 continue;
             }
 
@@ -59,12 +72,25 @@ public class EnglishConverter : IConverter
             var digit = !string.IsNullOrWhiteSpace(tenfold)
                 ? string.Join(Constant.Space, hundredsAsString, tenfold)
                 : hundredsAsString;
-            ConversionManager.Add(digit, DigitManager.GetDigitValueAsString(i + 1));
+            _conversionManager.Add(digit, DigitManager.GetDigitValueAsString(i + 1));
         }
 
-        var conversionResult = ConversionManager.Get();
-        ConversionManager.Clear();
+        var conversionResult = _conversionManager.Get();
+        _conversionManager.Clear();
 
         return conversionResult;
+    }
+
+    public void Dispose() => Dispose(true);
+
+    private void Dispose(bool disposing)
+    {
+        if (_disposedValue) return;
+        if (disposing)
+        {
+            _safeHandle.Dispose();
+        }
+
+        _disposedValue = true;
     }
 }

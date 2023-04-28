@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "plGR60Pz8Jp8PCCrvF6vm+zEA24AZWIcHGIeUgeygzX1eWBrBCsTSTRmnEQr9BD8pjkjosrRiXQaUJVWWD/v5w==",
+  "dgSpecHash": "kq7NI+WIpQlTkiz6W2STnS03caHZ62ISEPNmBzWYHA3ccGtK4hQ+CbdOuB9vi/T8vvyPb1VQU1UCRpfgh998yw==",
   "success": true,
-  "projectFilePath": "/home/alihan/RiderProjects/QoniacCodingTask/Business/Business.csproj",
+  "projectFilePath": "C:\\Users\\aliha\\OneDrive\\Belgeler\\GitHub\\Conversion\\QoniacCodingTask\\Business\\Business.csproj",
   "expectedPackageFiles": [
-    "/home/alihan/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0-preview.2.23128.3/microsoft.extensions.dependencyinjection.8.0.0-preview.2.23128.3.nupkg.sha512",
-    "/home/alihan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.2.23128.3/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
-    "/home/alihan/.nuget/packages/microsoft.extensions.logging/8.0.0-preview.2.23128.3/microsoft.extensions.logging.8.0.0-preview.2.23128.3.nupkg.sha512",
-    "/home/alihan/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0-preview.2.23128.3/microsoft.extensions.logging.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
-    "/home/alihan/.nuget/packages/microsoft.extensions.options/8.0.0-preview.2.23128.3/microsoft.extensions.options.8.0.0-preview.2.23128.3.nupkg.sha512",
-    "/home/alihan/.nuget/packages/microsoft.extensions.primitives/8.0.0-preview.2.23128.3/microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512"
+    "C:\\Users\\aliha\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.2.23128.3\\microsoft.extensions.dependencyinjection.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\aliha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.2.23128.3\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\aliha\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.2.23128.3\\microsoft.extensions.logging.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\aliha\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.2.23128.3\\microsoft.extensions.logging.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\aliha\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.2.23128.3\\microsoft.extensions.options.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\aliha\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.2.23128.3\\microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512"
   ],
   "logs": []
 }

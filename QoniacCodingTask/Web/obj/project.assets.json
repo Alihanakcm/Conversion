@@ -418,33 +418,32 @@
     ]
   },
   "packageFolders": {
-    "/home/alihan/.nuget/packages/": {}
+    "C:\\Users\\aliha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alihan/RiderProjects/QoniacCodingTask/Web/Web.csproj",
+      "projectUniqueName": "C:\\Users\\aliha\\OneDrive\\Belgeler\\GitHub\\Conversion\\QoniacCodingTask\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "/home/alihan/RiderProjects/QoniacCodingTask/Web/Web.csproj",
-      "packagesPath": "/home/alihan/.nuget/packages/",
-      "outputPath": "/home/alihan/RiderProjects/QoniacCodingTask/Web/obj/",
+      "projectPath": "C:\\Users\\aliha\\OneDrive\\Belgeler\\GitHub\\Conversion\\QoniacCodingTask\\Web\\Web.csproj",
+      "packagesPath": "C:\\Users\\aliha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aliha\\OneDrive\\Belgeler\\GitHub\\Conversion\\QoniacCodingTask\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/alihan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\aliha\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.github.com//Yuppii-Startup/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/alihan/RiderProjects/QoniacCodingTask/Business/Business.csproj": {
-              "projectPath": "/home/alihan/RiderProjects/QoniacCodingTask/Business/Business.csproj"
+            "C:\\Users\\aliha\\OneDrive\\Belgeler\\GitHub\\Conversion\\QoniacCodingTask\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\aliha\\OneDrive\\Belgeler\\GitHub\\Conversion\\QoniacCodingTask\\Business\\Business.csproj"
             }
           }
         }
@@ -483,7 +482,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

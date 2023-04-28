@@ -1,4 +1,7 @@
+using System.Text;
 using Business.Converters;
+using Business.Managers;
+using Business.Managers.Abstracts;
 using Business.Services.ConversionService;
 using Business.Services.ConversionService.Dto;
 using Core.Constants.Enum;
@@ -20,14 +23,6 @@ public class ConversionServiceTest
     public void Send_Decimal_Number_Returns_Conversion(decimal testNumber, Currency testCurrency,
         ConverterType testConverterType, string expected)
     {
-        var serviceProviderMock = new Mock<IServiceProvider>();
-        serviceProviderMock
-            .Setup(x => x.GetService(typeof(EnglishConverter)))
-            .Returns(serviceProviderMock.Object);
-
-        var converterFactoryMock = new Mock<IConverterFactory>();
-        converterFactoryMock.Setup(x => x.CreateConverter(ConverterType.English)).Returns(new EnglishConverter());
-
         var request = new ConvertRequestDto
         {
             ConverterType = testConverterType,
@@ -35,13 +30,13 @@ public class ConversionServiceTest
             Number = testNumber
         };
         
-        var englishConverterMock = new Mock<IConversionService>();
-        englishConverterMock.Setup(x => x.Convert(request)).Returns(expected);
-
-        englishConverterMock.Object.Convert(request);
+        var converterFactoryMock = new Mock<IConverterFactory>();
+        converterFactoryMock.Setup(x => x.CreateConverter(ConverterType.English))
+            .Returns(new EnglishConverter(new ConversionManager()));
 
         var loggerMock = new Mock<ILogger>();
-        var conversionService = new Business.Services.ConversionService.ConversionService(converterFactoryMock.Object, loggerMock.Object);
+        var conversionService =
+            new Business.Services.ConversionService.ConversionService(converterFactoryMock.Object, loggerMock.Object);
         var actual = conversionService.Convert(request);
 
         Assert.Equal(expected, actual);

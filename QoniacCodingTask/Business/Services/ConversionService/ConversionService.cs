@@ -38,6 +38,7 @@ public class ConversionService : IConversionService
         var converterDecimalPart =
             !string.IsNullOrWhiteSpace(decimalPartAsString) ? converter.Convert(decimalPartAsString) : string.Empty;
 
+        converter.Dispose();
         var (integerPartCurrency, decimalPartCurrency) =
             GetCurrency(requestDto.Currency, integerPartAsString, decimalPartAsString);
 

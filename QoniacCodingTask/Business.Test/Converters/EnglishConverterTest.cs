@@ -1,6 +1,5 @@
 using Business.Converters;
-using Core.Constants.Enum;
-using Moq;
+using Business.Managers;
 
 namespace Business.Test.Converters;
 
@@ -14,20 +13,7 @@ public class EnglishConverterTest
     [InlineData("45100", "forty-five thousand one hundred")]
     public void Send_Number_To_English_Conversion_Returns_Conversion_Result(string test, string expected)
     {
-        var serviceProvider = new Mock<IServiceProvider>();
-        serviceProvider
-            .Setup(x => x.GetService(typeof(EnglishConverter)))
-            .Returns(serviceProvider.Object);
-
-        var converterFactory = new Mock<IConverterFactory>();
-        converterFactory.Setup(x => x.CreateConverter(ConverterType.English)).Returns(new EnglishConverter());
-
-        var englishConverterMock = new Mock<IConverter>();
-        englishConverterMock.Setup(x => x.Convert(test)).Returns(expected);
-
-        englishConverterMock.Object.Convert(test);
-
-        var englishConverter = new EnglishConverter();
+        var englishConverter = new EnglishConverter(new ConversionManager());
         var actual = englishConverter.Convert(test);
 
         Assert.Equal(expected, actual);

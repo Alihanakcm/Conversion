@@ -1,4 +1,6 @@
 using Business.Converters;
+using Business.Managers;
+using Business.Managers.Abstracts;
 using Business.Services.ConversionService;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -12,6 +14,7 @@ public static class Startup
         services.AddScoped<IConverterFactory, ConverterFactory>();
         services.AddScoped<IConversionService, ConversionService>();
         services.AddScoped<EnglishConverter>();
+        services.AddScoped<IConversionManager, ConversionManager>();
         var serviceProvider = services.BuildServiceProvider();
         var logger = serviceProvider.GetService<ILogger<ApplicationLogs>>();
         services.AddSingleton(typeof(ILogger), logger);
